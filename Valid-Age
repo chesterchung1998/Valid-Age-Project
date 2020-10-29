@@ -1,0 +1,9 @@
+def checkAge():
+    r = 1
+    age = int(input("Enter age: "))
+    while age<1 or age>100:
+        age = int(input("Enter age: "))
+        r = r + 1
+    if age>=1 and age<=100:
+        print ("Your age is",age)
+    print ("Number of attempts =",r)
